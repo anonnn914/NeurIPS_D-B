@@ -15,6 +15,7 @@ This repository contains all the experiments conducted for NeurIPS 2024 Datasets
 3. Hyperparameter.md - This has the details of the hyperparameters used for all experiments in all datasets.
 4. reproducibility.md - This contains information on how to reproduce the experiments. 
 5. error_bars.md - This showcases the error value mean and standard deviation for the Fridge and Dishwasher appliance from REDD dataset.
+6. environment.yml - contains all the libraries and their versions to setup the environment for reproducibility. 
 
 ### How to access Dataset:
 1. REDD: Login to http://redd.csail.mit.edu through login credentials. Perform pre-processing using NILMTK tools https://github.com/nilmtk/nilmtk. 
