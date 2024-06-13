@@ -27,3 +27,35 @@
 | 17  | Base S2P                          | -                  | -                          | 0.078 ± 0.020                 |
 | After Calibration                       |                    |                            |                               |            
 | 18  | Base S2P                          | Conformal          | -                          | 0.078 ± 0.012                 |
+
+
+| Row | Uncertainty Method                | Calibration Method | Dishwasher MAE             | Dishwasher ECE                |
+|-----|-----------------------------------|--------------------|----------------------------|-------------------------------|
+| **Model: S2P (Homoscedastic)**          |                    |                            |                               |            |
+| Before Calibration                      |                    |                            |                               |            |
+| 1   | MC                                | -                  | 10.96 ± 1.97               | 0.413 ± 0.029                 |
+| 2   | DE                                | -                  | 13.45 ± 1.67               | 0.270 ± 0.140                 |
+| 3   | BS                                | -                  | 11.38 ± 0.72               | 0.161 ± 0.134                 |
+| After Calibration                       |                    |                            |                               |            |
+| 4   | MC                                | Isotonic           | 10.96 ± 1.97               | 0.351 ± 0.055                 |
+| 5   | DE                                | Isotonic           | 13.45 ± 1.67               | 0.252 ± 0.139                 |
+| 6   | BS                                | Isotonic           | 11.38 ± 0.72               | 0.210 ± 0.114                 |
+| 7   | -                                 | Conformal          | 10.88 ± 2.00               | 0.207 ± 0.036                 |
+| **Model: Gaussian S2P (Heteroscedastic)**|                   |                            |                               |            |
+| Before Calibration                      |                    |                            |                               |            |
+| 8   | Base S2P                          | -                  | 9.62 ± 0.33                | 0.146 ± 0.067                 |
+| 9   | MC                                | -                  | 9.42 ± 0.21                | 0.136 ± 0.032                 |
+| 10  | DE                                | -                  | 9.69 ± 0.12                | 0.160 ± 0.041                 |
+| 11  | BS                                | -                  | 10.57 ± 0.72               | 0.357 ± 0.036                 |
+| After Calibration                       |                    |                            |                               |            |
+| 12  | Base S2P                          | Isotonic           | 9.62 ± 0.33                | 0.078 ± 0.030                 |
+| 13  | MC                                | Isotonic           | 9.42 ± 0.21                | 0.070 ± 0.064                 |
+| 14  | DE                                | Isotonic           | 9.69 ± 0.12                | 0.061 ± 0.013                 |
+| 15  | BS                                | Isotonic           | 10.57 ± 0.72               | 0.075 ± 0.028                 |
+| 16  | Base S2P                          | Conformal          | 9.62 ± 0.33                | 0.088 ± 0.052                 |
+| **Model: S2P (Conformalized Quantile Regression)** |         |                            |                               |            |
+| Before Calibration                      |                    |                            |                               |            |
+| 17  | Base S2P                          | -                  | -                          | 0.059 ± 0.028                 |
+| After Calibration                       |                    |                            |                               |            
+| 18  | Base S2P                          | Conformal          | -                          | 0.053 ± 0.019                 |
+
